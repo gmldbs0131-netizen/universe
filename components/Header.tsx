@@ -51,6 +51,10 @@ export default function Header() {
           <Link href="#" className="text-sm font-medium text-slate-300 hover:text-white transition-colors">
             커뮤니티
           </Link>
+          <Link href="/mbl" className="text-sm font-semibold text-indigo-400 hover:text-indigo-300 transition-colors flex items-center gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse"></span>
+            MBL 실험실
+          </Link>
           {/* 
             // [확장성 고려 주석]
             // 여기에 새로운 네비게이션 링크나 카테고리 컴포넌트를 추가하세요.
